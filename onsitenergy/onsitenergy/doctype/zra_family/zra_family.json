@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2024-11-23 11:15:34.564479",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "family",
+  "family_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "family",
+   "fieldtype": "Data",
+   "label": "Family"
+  },
+  {
+   "fieldname": "family_description",
+   "fieldtype": "Data",
+   "label": "Family Description"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-15 18:18:00.877044",
+ "modified_by": "Administrator",
+ "module": "Onsitenergy",
+ "name": "ZRA Family",
+ "owner": "lubutsejbrown@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
