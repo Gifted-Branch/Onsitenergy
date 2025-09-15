@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2024-11-23 11:28:17.175011",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "key",
+  "version",
+  "column_break_npbw",
+  "segment",
+  "segment_description",
+  "section_break_jdza",
+  "family",
+  "family_description",
+  "column_break_nkgk",
+  "class",
+  "class_description",
+  "section_break_albx",
+  "commodity",
+  "commodity_description",
+  "column_break_bcxm",
+  "synonym",
+  "acronym"
+ ],
+ "fields": [
+  {
+   "fieldname": "key",
+   "fieldtype": "Data",
+   "label": "Key"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "fieldname": "column_break_npbw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "segment",
+   "fieldtype": "Link",
+   "label": "Segment",
+   "options": "ZRA_Segment"
+  },
+  {
+   "fieldname": "segment_description",
+   "fieldtype": "Data",
+   "label": "Segment Title"
+  },
+  {
+   "fieldname": "section_break_jdza",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Link",
+   "label": "Family",
+   "options": "ZRA Family"
+  },
+  {
+   "fieldname": "family_description",
+   "fieldtype": "Data",
+   "label": "Family Title"
+  },
+  {
+   "fieldname": "column_break_nkgk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Link",
+   "label": "Class",
+   "options": "ZRA Class"
+  },
+  {
+   "fieldname": "class_description",
+   "fieldtype": "Data",
+   "label": "Class Description"
+  },
+  {
+   "fieldname": "section_break_albx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commodity",
+   "fieldtype": "Link",
+   "label": "Commodity",
+   "options": "ZRA Commodity"
+  },
+  {
+   "fieldname": "commodity_description",
+   "fieldtype": "Data",
+   "label": "Commodity Title"
+  },
+  {
+   "fieldname": "column_break_bcxm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "synonym",
+   "fieldtype": "Data",
+   "label": "Synonym"
+  },
+  {
+   "fieldname": "acronym",
+   "fieldtype": "Data",
+   "label": "Acronym"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-15 18:17:39.822152",
+ "modified_by": "Administrator",
+ "module": "Onsitenergy",
+ "name": "ZRA UNSPSC CODES",
+ "owner": "lubutsejbrown@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
